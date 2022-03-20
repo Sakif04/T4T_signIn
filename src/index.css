@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin: 142px 0px 50px 317px;
+}
+
+.user-form{  
+
+ 
+    flex-direction: column;
+    box-shadow: 0px 0px 25px 0px #00000080;
+    z-index: 2;
+    background-color:#ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    height: 979px;
+    width: 715px;
+    left: 1012px;
+    top: 52px;
+    border-radius: 10px;
+
+}
+.form-header{
+   margin: 0 auto;
+    text-align: center;
+    color: #473558;
+    height: 42px;
+    width: 492px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/* .form{
+
+
+} */
+.input::placeholder{
+    padding-left:1rem;
+ }
+ .input:focus {
+     /* background-color: #ff0; */
+     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+     border: 3px solid #306faa;
+     outline: none;
+ }
+ .input{
+    font-size: 20px;
+    line-height: 23px;
+     padding: 25px;
+     text-align: left;
+     margin: 25px 0px 0px 151px; 
+     width: 380px;
+     height: 53px;
+     border-radius: 10px;
+     background: #FFFFFF;
+     border: 2px solid #666666;
+     box-sizing: border-box;
+     
+ }
+.btn{
+    font-family: Roboto;
+    border:none;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#ffffff;
+    margin:28px 150px;
+    width: 380px;
+    height: 53px;
+    background: #3E489A;
+    border-radius: 10px;
+}
+
+.or{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.or:before,
+.or:after {
+margin: 0 15px;
+background-color: #000;
+content: "";
+display: inline-block;
+height: 1px;
+position: relative;
+vertical-align: middle;
+width: 20%;
+}
+
+.icon{
+    margin: 10px 22px;
+}
+.background{
+z-index: 0;
+height: 1081px;
+width: 1219px;
+left: 0px;
+top: 1px;
+border-radius: 0px;
+background: radial-gradient(99.87% 413.14% at 0% 4.98%, #443453 0%, #232323 28.23%, #252425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
