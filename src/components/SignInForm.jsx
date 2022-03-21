@@ -8,7 +8,7 @@ export default function SignInForm(){
     return(
     <form className="user-form">
             <img src={logo} alt="logo" id="logo" />
-            <h1 class="form-header">Explore The Best Tours... Hurry up!!</h1>
+            <h1 className="form-header">Explore The Best Tours... Hurry up!!</h1>
             <Input item='email'/>
             <Input item="password"/>
             <a href="#" className="forget-pass">Forgot Password?</a>
