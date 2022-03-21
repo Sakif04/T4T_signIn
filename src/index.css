@@ -113,7 +113,7 @@
 
 
 .unregistered{
-    margin: 1.5rem 0;
+    margin: 2rem 0;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -142,6 +142,19 @@ top: 1px;
 border-radius: 0px;
 background: radial-gradient(99.87% 413.14% at 0% 4.98%, #443453 0%, #232323 28.23%, #252425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
+}
+.forget-pass{
+    display: flex;
+    justify-content: center;
+    margin-left: 13rem;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:#ff0000;
 }
 .link{
     color:rgb(73, 156, 224);

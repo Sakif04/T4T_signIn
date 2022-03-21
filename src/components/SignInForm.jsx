@@ -12,6 +12,7 @@ export default function SignInForm(){
             <Input item='email'/>
             <Input item="password"/>
             <button className="btn">Log in</button>
+            <a href="#" className="forget-pass">Forgot Password</a>
             <h4 className="or">or</h4>
             <div className="icons">
                 <img src={fbIcon} alt="Facebook-icon" className="icon icon-fb" />
