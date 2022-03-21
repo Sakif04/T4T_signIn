@@ -90,23 +90,48 @@
 
 .or{
     text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
     margin: 0 auto;
 }
 
 .or:before,
 .or:after {
-margin: 0 15px;
-background-color: #000;
-content: "";
-display: inline-block;
-height: 1px;
-position: relative;
-vertical-align: middle;
-width: 20%;
+    margin: 0 15px;
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
 }
 
+
+.unregistered{
+    margin: 1.5rem 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .icon{
-    margin: 10px 22px;
+    margin: 10px 20px;
 }
 .background{
 z-index: 0;
@@ -117,4 +142,9 @@ top: 1px;
 border-radius: 0px;
 background: radial-gradient(99.87% 413.14% at 0% 4.98%, #443453 0%, #232323 28.23%, #252425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
+}
+.link{
+    color:rgb(73, 156, 224);
+    text-decoration: none;
+    margin: 0px 20px;
 }
