@@ -1,4 +1,4 @@
-import "./index.css";
+import "./styles/index.css";
 
 import LeftBackground from './components/LeftBackground';
 import SignInForm from "./components/SignInForm";

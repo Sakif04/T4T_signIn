@@ -7,9 +7,6 @@
 }
 
 .user-form{  
-
- 
-    flex-direction: column;
     box-shadow: 0px 0px 25px 0px #00000080;
     z-index: 2;
     background-color:#ffffff;
@@ -19,7 +16,6 @@
     font-weight: 400;
     line-height: 42px;
     letter-spacing: 0em;
-    text-align: left;
     position: absolute;
     height: 979px;
     width: 715px;
@@ -29,7 +25,9 @@
 
 }
 .form-header{
-   margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem 0rem 9rem;
     text-align: center;
     color: #473558;
     height: 42px;
@@ -58,20 +56,21 @@
      outline: none;
  }
  .input{
-    font-size: 20px;
-    line-height: 23px;
+     font-size: 20px;
+     line-height: 23px;
      padding: 25px;
      text-align: left;
-     margin: 25px 0px 0px 151px; 
+     margin: 15px 0px 0px 201px; 
      width: 380px;
      height: 53px;
      border-radius: 10px;
      background: #FFFFFF;
      border: 2px solid #666666;
-     box-sizing: border-box;
-     
- }
+     box-sizing: border-box;   
+}
+
 .btn{
+    cursor:pointer;
     font-family: Roboto;
     border:none;
     font-size: 22px;
@@ -81,7 +80,7 @@
     letter-spacing: 0em;
     text-align: center;
     color:#ffffff;
-    margin:28px 150px;
+    margin: 25px 0px 0px 201px; 
     width: 380px;
     height: 53px;
     background: #3E489A;
@@ -89,20 +88,21 @@
 }
 
 .or{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 23px;
     letter-spacing: 0em;
-    margin: 0 auto;
+    margin: 3rem 0 1.5rem 3rem;
 }
 
 .or:before,
 .or:after {
-    margin: 0 15px;
-    background-color: #000;
+    margin: auto 25px;
+    background-color: #666666;
     content: "";
     display: inline-block;
     height: 1px;
@@ -113,7 +113,8 @@
 
 
 .unregistered{
-    margin: 2rem 0;
+    margin: 2rem 1rem 0rem 4rem;
+    color: #707070;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -127,26 +128,28 @@
 }
 .icons{
     display: flex;
+    margin: 2rem 0 2rem 3rem;
     flex-wrap: wrap;
     justify-content: center;
 }
 .icon{
-    margin: 10px 20px;
+    margin: 10px 24px;
 }
 .background{
-z-index: 0;
-height: 1081px;
-width: 1219px;
-left: 0px;
-top: 1px;
-border-radius: 0px;
-background: radial-gradient(99.87% 413.14% at 0% 4.98%, #443453 0%, #232323 28.23%, #252425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    z-index: 0;
+    height: 1081px;
+    width: 1219px;
+    left: 0px;
+    top: 1px;
+    border-radius: 0px;
+    background: radial-gradient(99.87% 413.14% at 0% 4.98%, #443453 0%, #232323 28.23%, #252425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
 }
 .forget-pass{
+    margin-top: 10px; 
     display: flex;
-    justify-content: center;
-    margin-left: 13rem;
+    justify-content: end;
+    margin-right: 8rem;
     text-decoration: none;
     text-align: right;
     font-family: 'Roboto';
